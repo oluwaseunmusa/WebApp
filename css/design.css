@@ -9,6 +9,10 @@
     margin: 0;
 }
 
+/*********************************      
+         BODY 
+*********************************/
+
 body {
     background: #f2f2f2;
     font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
@@ -16,6 +20,9 @@ body {
 }
 
 
+/*********************************
+        CONTAINER
+*********************************/
 .form-container {
 
     padding: 10px 20px;
