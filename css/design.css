@@ -63,3 +63,22 @@ input[type=submit]:hover {
     background-color: #45a049;
 }
 
+
+span, h2 {
+    text-align: center;
+    color: #493D3D;
+    
+}
+
+
+a {
+    text-decoration: none;
+    color: #493D3D
+    text-align: center;
+}
+
+a:hover {
+    color:#493D3D;
+    font-weight: bold;
+    font-size:1em;
+}
