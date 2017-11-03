@@ -7,6 +7,8 @@
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     margin: 0;
+    font-family: 'Roboto Slab', serif;
+    
 }
 
 /*********************************      
@@ -15,8 +17,6 @@
 
 body {
     background: #f2f2f2;
-    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
-
 }
 
 
@@ -42,21 +42,22 @@ input {
     padding: 5px 10px;
     font-size: 16px;
     margin-top: 30px;
-    box-shadow: none;
     border-radius: 5px;
     box-decoration-break: none;
+    
 }
 
 
-input[type=submit] {
+button {
     width: 100%;
-    background-color: #4CAF50;
+    background: #4CAF50;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    font-size: 1em;
 }
 
 input[type=submit]:hover {
@@ -64,21 +65,73 @@ input[type=submit]:hover {
 }
 
 
+h2 {
+    font-size: 1.5em;
+    color: #4CAF50;
+    letter-spacing: 5px;
+    font-weight: normal;
+}
+
 span, h2 {
     text-align: center;
-    color: #493D3D;
-    
+}
+
+span {
+    font-size: 0.78em;
+    text-align: center;
+
 }
 
 
 a {
     text-decoration: none;
-    color: #493D3D
-    text-align: center;
+    color: #493D3D;
 }
 
 a:hover {
-    color:#493D3D;
+    color: #4CAF50;
     font-weight: bold;
     font-size:1em;
+}
+
+input[type="text"]::placeholder,
+    [type="email"]::placeholder,
+    [type="password"]::placeholder {
+    color: #4CAF50;
+}
+
+
+/*************************************
+    MEDIA QUERIES
+************************************/
+
+@media (max-width:450px) {
+    body {
+        background: #fa3;
+    }
+    .form-container {
+        width: 100%;
+        border-radius: 0px;
+        background: none;
+        
+    }
+    a {
+        color: #fff;
+    }
+    a:hover{
+        color: #fff;
+    }
+}
+
+
+@media (min-width:451px) and (max-width:540px) {
+    body {
+        background: tomato;
+    }
+}
+ 
+@media (min-width:541px) and (max-width:768px) {
+    body {
+        background: powderblue;
+    }
 }

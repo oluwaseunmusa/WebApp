@@ -9,19 +9,18 @@
         <link rel="stylesheet" href="../webapp/css/design.css" >
         <link rel="stylesheet" href="../webapp/css/font-awesome.min.css" >
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
-        
 
     </head>
     <body>
             <form  class="form-container" method="POST">
-                <h2>Log-in</h2>
+                <h2>Register</h2> 
+                <input type="text" name="name" id="name" placeholder="Full Name" />             
                 <input type="text" name="username" id="username" placeholder="Username" />
+                <input type="email" name="email" id="useremail" placeholder="email@example.com" />
                 <input type="password" name="psw" id="password" placeholder="Password"  required/>
-                <button name="submit" id="submit"><i class="fa fa-sign-in" aria-hidden="true"> &nbsp; Log-In</i>
-                </button>
-                <a href="register.html"><i class="fa fa-user-plus" aria-hidden="true"></i> Register</a> |
+                <button name="submit" id="submit"><i class="fa fa-user-plus" aria-hidden="true"></i>&nbsp;Register</button>
+                <a href="index.html"><i class="fa fa-sign-in" aria-hidden="true"> </i> Log-In</a> |
                  <a href="recovery.html"><i class="fa fa-unlock" aria-hidden="true"></i> Forgot Password</a>
-                
 
             </form>
     </body>
