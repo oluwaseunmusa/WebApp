@@ -111,8 +111,9 @@ input[type="text"]::placeholder,
     }
     .form-container {
         width: 100%;
-        border-radius: 0px;
         background: none;
+        margin: 20px auto;
+
         
     }
     a {
